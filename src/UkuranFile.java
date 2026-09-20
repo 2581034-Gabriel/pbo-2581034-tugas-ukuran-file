@@ -34,5 +34,16 @@ public class UkuranFile {
 
         double selisih = ukuranMB - ukuranMBBulat;
 
+        System.out.println();
+        System.out.println("===== UKURAN FILE =====");
+        System.out.println("Nama file : " + namaFile);
+        System.out.println("Byte      : " + ukuranByte);
+        System.out.println("KB        : " + ukuranKB);
+        System.out.println("MB        : " + ukuranMB);
+        System.out.println("GB        : " + ukuranGB);
+        System.out.println("MB bulat  : " + ukuranMBBulat);
+        System.out.println("Selisih   : " + selisih);
+
+        input.close();
     }
 }
